@@ -1,5 +1,5 @@
 # Java-OOP-basics
-Learn the basics of Java OOP
+Learn the basics of Java OOP 
 **The bottom line of inheritance is: REUSABILITY**
 
 - When an instance of the subclass is created, the non-private methods of the superclass are available through the subclass object.
