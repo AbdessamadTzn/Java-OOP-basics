@@ -19,6 +19,7 @@ AccessSpecifier abstract ReturnType MethodName(PrameterList);
 ```
 
 Example for:
+
 `Employee.java`
 
 ```java
@@ -28,6 +29,7 @@ public abstract double GetSalary();
 `HourlyEmployee.java`:
 
 ```java
+@override
 public double getSalary() {
     return working_hours * hour_rate;
     }
