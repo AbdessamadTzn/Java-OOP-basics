@@ -25,3 +25,18 @@ In the example, for the code, let's suppose that we have a retailitems's store l
 - A class can implements more the one interface! Just be sure you implement all of the mehods in the implemented interfaces! Look up for _multiple interfaces implementation in java_
 - In the main file, r1 have the reference of realitems interface, and point to book class that implement the interface, correct syntax!
 - But, if the interface, just have 2 methods, and you add a third method in the class book, that doesn't exist in the interface, with the syntax I'm using in main, reference the interface and point to the class, you'll not be able to call the third method with the r1 object, cz you reference the interface. Look up for _java interface reference_ for more infos!
+- Also, ih the case you'are implementing more than one interface, with this syntax you can't call methods that exists in other interface using object r1.
+- Is interfaces have fields? Yes! but they are static and final, as follow:
+
+```java
+public interface fields{
+    int Field1 = 2, Fields2 = 4; //Static nd finals
+    (methods headers....)
+}
+```
+
+- So, the classes inplementing this inetrface can use those fields without modifying 'em!
+
+# By: **[Abdessamad Touzani](https://www.linkedin.com/in/abdessamadtouzani/)**
+
+**Keep It Real**
